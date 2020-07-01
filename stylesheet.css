@@ -1,14 +1,39 @@
 body
 {
-    background-color: aquamarine;
-    font-family: fantasy, Arial, Helvetica, sans-serif;
+    background-color: burlywood;
+    font-family: "Helvetica", Arial, Helvetica, sans-serif;
 }
-#Contenido
+#contenido
 {
-    width: 960px;
-    margin: 0 auto;
+    width:960px;
+    margin:0 auto;
+    text-align: center;
+}
+h1
+{
+    color: aquamarine;
 }
 nav ul li
 {
     display: inline-block;
+    margin-right:20px;
+    color: coral;
+    cursor: pointer;
+}
+#textopr
+{
+    width: 600px;
+    height: 300px;
+    background-color: darkcyan;
+    color: blanchedalmond;
+    margin: auto;
+    text-align: left;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.50)
+}
+a
+{
+    color: darkgoldenrod;
+    font-weight: bold;
 }
