@@ -12,6 +12,15 @@ body
 h1
 {
     color: aquamarine;
+    font-family: 'Russo One', sans-serif;
+}
+header hgroup h1
+{
+    border-bottom: solid;
+    padding-bottom: 10px;
+    border-width: 1px;
+    border-color: saddlebrown;
+    text-shadow:0px 0px 30px rgba(0, 0, 0, 5);
 }
 nav ul li
 {
@@ -19,6 +28,16 @@ nav ul li
     margin-right:20px;
     color: coral;
     cursor: pointer;
+    padding: 5px;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    
+}
+nav ul li:hover
+{
+    background-color: slateblue;
+    color: slategrey;
+    border-radius: 5px;
 }
 #textopr
 {
@@ -36,4 +55,67 @@ a
 {
     color: darkgoldenrod;
     font-weight: bold;
+}
+#micanvas
+{
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+}
+meter
+{
+    background-color: snow;
+    padding: 5px;
+    color: saddlebrown;
+    margin-left: 20px;
+    width: 200px;
+}
+label
+{
+    display: block;
+}
+#btnSubmit
+{
+    border: none;
+    background-color: tomato;
+    color: thistle;
+    padding: 4px;
+    margin: 20px;
+    cursor: pointer;
+    font-family: 'Russo One', sans-serif;
+
+}
+#calificacion
+{
+    width: 150px;
+    -webkit-appearance: none;
+    background-color: thistle;
+    height: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#calificacion::-webkit-slider-thumb
+{
+    -webkit-appearance: none;
+    background-color: brown;
+    border-radius: 10px;
+    height: 15px;
+    width: 10px;
+}
+#mediac
+{
+    box-sizing: border-box;
+}
+.particion
+{
+    display: inline-block;
+    width: 45%;
+}
+#mediac audio
+{
+    width: 200px;
+}
+#mediac video
+{
+    height: 180px;
 }
